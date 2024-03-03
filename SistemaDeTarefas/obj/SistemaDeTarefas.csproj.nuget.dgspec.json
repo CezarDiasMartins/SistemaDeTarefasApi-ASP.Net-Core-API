@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Workspaces\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {}
+    "E:\\Workspaces\\SistemaDeTarefasApi-ASP.Net-Core-API\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {}
   },
   "projects": {
-    "E:\\Workspaces\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {
+    "E:\\Workspaces\\SistemaDeTarefasApi-ASP.Net-Core-API\\SistemaDeTarefas\\SistemaDeTarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Workspaces\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
+        "projectUniqueName": "E:\\Workspaces\\SistemaDeTarefasApi-ASP.Net-Core-API\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
         "projectName": "SistemaDeTarefas",
-        "projectPath": "E:\\Workspaces\\SistemaDeTarefas\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
+        "projectPath": "E:\\Workspaces\\SistemaDeTarefasApi-ASP.Net-Core-API\\SistemaDeTarefas\\SistemaDeTarefas.csproj",
         "packagesPath": "C:\\Users\\cezar\\.nuget\\packages\\",
-        "outputPath": "E:\\Workspaces\\SistemaDeTarefas\\SistemaDeTarefas\\obj\\",
+        "outputPath": "E:\\Workspaces\\SistemaDeTarefasApi-ASP.Net-Core-API\\SistemaDeTarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cezar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -71,6 +75,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.1, )"
             }
           },
           "imports": [
